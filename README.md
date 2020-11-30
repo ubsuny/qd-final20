@@ -1,3 +1,3 @@
 # Eigenstates of a Quantum Dot
 
-Your Writeup goes here
+Determine the excitonic Eigenstates of a Quantum Dot.
