@@ -4,12 +4,14 @@ from scipy.optimize import brentq
 
 class Finite_Well_Scipy_Solver:
 
-	def __init__(self, x, b, L, Vo, en, psi, psi0):
+	def __init__(self, x, b, L, Vo, en, m, hbar, psi, psi0):
 		self.x = x
 		self.b = b
 		self.L = L
 		self.Vo = Vo
 		self.en = en
+		self.m = m
+		self.hbar = hbar
 		self.psi = psi
 		self.psi0 = psi0
 
@@ -48,6 +50,7 @@ class Finite_Well_Scipy_Solver:
 		energy E"""
 		self.E = energy
 		self.psi = odeint(self.SE, self.psi0, self.x)
+
 		return self.psi
 
 
