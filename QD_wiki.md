@@ -4,7 +4,7 @@
 
 #### a. Quantum Dots
 
-Quantum dots (QDs) are nanometer-scale semiconductor materials that, due to their size, display quantum confinement, in which electrons cannot escape the "dot".  This behavior allows for the "particle in a box" approximation to be used to model the QD system.  Quantum dots have been a topic of high interest in recent years due to their numerous applications, such as LEDs, single-electron transistors and solar cells.
+Quantum dots (QDs) are nanometer-scale semiconductor materials that, due to their size, display quantum confinement, in which electrons cannot escape the electron-hole pair.  This behavior allows for the "particle in a box" approximation to be used to model the QD system.  Quantum dots have been a topic of high interest in recent years due to their numerous applications, such as LEDs, single-electron transistors and solar cells.
 
 ### b. Finite Potential Square Well
 
@@ -54,7 +54,7 @@ $$\frac{d^2 \Psi \left( x \right)}{dx^2} = \kappa^2 \Psi \left( x \right), $$
 
 where,
 
-$$ \alpha = \frac{\sqrt{-2m E}}{\hbar^2}. $$
+$$ \kappa = \frac{\sqrt{-2m E}}{\hbar^2}. $$
 
 The general solution for this ODE is the same as above, however for this section, a solution with trigonometric functions is considered.  This form of the general solution is then,
 
@@ -66,7 +66,7 @@ Applying continuity conditions $\Psi_1 \left( x = -a \right) = \Psi_2 \left( x =
 
 $$ \begin{aligned}
 tan\left(z\right) &= \sqrt{\left(z_0/z\right)^2 - 1} \;\;\; \left(symmetric \, case\right) \\
--cot\left(z\right) &= \sqrt{\left(z_0/z\right)^2 - 1} \;\;\; \left(symmetric \, case\right)
+-cot\left(z\right) &= \sqrt{\left(z_0/z\right)^2 - 1} \;\;\; \left(antisymmetric \, case\right)
 \end{aligned}$$
 
 where $z_0 = \frac{a}{\hbar^2}\sqrt{2m V_0}$ and $z = \frac{a}{\hbar}\sqrt{2m\left(V_0-E\right)}$.  Thus to find analytical solutions for the eigenstates of the finite potential square well, numerical or graphical methods are used to find the roots of the transendental equations.
